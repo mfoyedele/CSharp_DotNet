@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>DemoProject.CopyConDemo</StartupObject>
+    <StartupObject>DemoProject.StaticConDemo</StartupObject>
   </PropertyGroup>
 
 </Project>

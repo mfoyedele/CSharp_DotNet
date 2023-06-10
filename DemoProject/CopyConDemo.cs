@@ -9,11 +9,11 @@ namespace DemoProject
     internal class CopyConDemo
     {
         int x;
-        public CopyConDemo(int i)
+        public CopyConDemo(int i) // Parameterized Constructor
         {
             x = i;
         }
-        public CopyConDemo(CopyConDemo obj)
+        public CopyConDemo(CopyConDemo obj) // Copy Constructor
         {
             x = obj.x;
         }
