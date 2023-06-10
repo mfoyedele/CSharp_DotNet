@@ -6,8 +6,8 @@ namespace DemoProject
     {
         int i; bool b;
         static void Main(string[] args)
-        {
-            Program p = new DemoProject.Program();
+        { 
+            Program p = new Program();
             Console.WriteLine("Value of i is: " + p.i);
             Console.WriteLine("Value of p is: " + p.b);
 
