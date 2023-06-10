@@ -15,7 +15,8 @@ namespace DemoProject
 
         static void Main()
         {
-            ParameterizedConDemo num = new ParameterizedConDemo(10);
+            ParameterizedConDemo num1 = new ParameterizedConDemo(10);
+            ParameterizedConDemo num2 = new ParameterizedConDemo(20);
         }
     }
 }
