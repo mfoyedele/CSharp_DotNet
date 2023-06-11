@@ -27,6 +27,7 @@ namespace DemoProject
             ConstructorsDemo d3 = new ConstructorsDemo();
 
             Console.WriteLine(y);
+            Console.WriteLine(d1.x + " " + d2.x + " " + d3.x);
             Console.ReadLine();
         }
     }
