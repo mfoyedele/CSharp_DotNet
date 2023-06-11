@@ -23,6 +23,8 @@ namespace DemoProject
             Console.WriteLine("Main method is called.");
 
             ConstructorsDemo d1 = new ConstructorsDemo();
+            ConstructorsDemo d2 = new ConstructorsDemo();
+            ConstructorsDemo d3 = new ConstructorsDemo();
             Console.ReadLine();
         }
     }
