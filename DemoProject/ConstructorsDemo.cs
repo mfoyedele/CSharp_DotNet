@@ -20,7 +20,10 @@ namespace DemoProject
         }
         static void Main()
         {
+            Console.WriteLine("Main method is called.");
 
+            ConstructorsDemo d1 = new ConstructorsDemo();
+            Console.ReadLine();
         }
     }
 }
