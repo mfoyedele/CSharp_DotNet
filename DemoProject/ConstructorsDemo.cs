@@ -8,6 +8,8 @@ namespace DemoProject
 {
     internal class ConstructorsDemo
     {
+        static int y;
+        int x;
         static ConstructorsDemo()
         {
             Console.WriteLine("Static constructor is called.");
@@ -15,6 +17,10 @@ namespace DemoProject
         public ConstructorsDemo()
         {
             Console.WriteLine("Non-Static constructor is called.");
+        }
+        static void Main()
+        {
+
         }
     }
 }
