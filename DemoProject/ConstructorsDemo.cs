@@ -25,6 +25,8 @@ namespace DemoProject
             ConstructorsDemo d1 = new ConstructorsDemo();
             ConstructorsDemo d2 = new ConstructorsDemo();
             ConstructorsDemo d3 = new ConstructorsDemo();
+
+            Console.WriteLine(y);
             Console.ReadLine();
         }
     }
