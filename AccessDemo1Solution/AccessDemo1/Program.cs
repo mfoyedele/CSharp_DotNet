@@ -29,6 +29,7 @@ namespace AccessDemo1
             Program p = new Program();
             p.Test1(); p.Test2(); p.Test3(); 
             p.Test4(); p.Test5();
+            Console.ReadLine();
         }
     }
 }
