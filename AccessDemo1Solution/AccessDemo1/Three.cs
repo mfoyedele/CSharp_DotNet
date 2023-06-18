@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace AccessDemo1
 {
-    // Consuming members of a class from child class
-    class Two: Program
+    internal class Three
     {
         static void Main(string[] args)
         {
-            Two t = new Two();
-            t.Test2(); t.Test3(); t.Test4(); t.Test5();
-            Console.ReadLine();
+            Program p = new Program();
+            p.Test2(); p.Test4(); p.Test5();
         }
     }
 }
