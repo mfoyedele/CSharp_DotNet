@@ -2,16 +2,15 @@
 
 namespace TestProject
 {
-    class Program
+    class First
     {
-        int i; bool b;
+        int x = 100;
         static void Main(string[] args)
         {
-            Program p = new Program();
-            Console.WriteLine("Value of i is: " + p.i);
-            Console.WriteLine("Value of p is: " + p.b);
-
+            First f = new First();
+            Console.WriteLine(f.x);
             Console.ReadLine();
+
         }
     }
-}
+}  
