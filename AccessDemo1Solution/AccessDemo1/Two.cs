@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace AccessDemo1
 {
-    internal class Two
+    class Two: Program
     {
+        static void Main(string[] args)
+        {
+            Two t = new Two();
+            t.Test2(); t.Test3(); t.Test4(); t.Test5();
+            Console.ReadLine();
+        }
     }
 }
