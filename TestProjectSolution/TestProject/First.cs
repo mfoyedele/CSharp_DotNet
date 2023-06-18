@@ -12,12 +12,12 @@ namespace TestProject
             //Console.WriteLine(f.x);
 
             First f1 = new First(); // f1 is instance of class
-            First f2 = new First(); // f2 is instance of class
+            First f2 = f1; // f2 is reference of the class
             Console.WriteLine(f1.x + " " + f2.x);
-            f1.x = 200;
-            Console.WriteLine(f1.x + " " + f2.x);
-            f2.x = 300;
-            Console.WriteLine(f1.x + " " + f2.x);
+            //f1.x = 200;
+            //Console.WriteLine(f1.x + " " + f2.x);
+            //f2.x = 300;
+            //Console.WriteLine(f1.x + " " + f2.x);
             Console.ReadLine();
 
         }
