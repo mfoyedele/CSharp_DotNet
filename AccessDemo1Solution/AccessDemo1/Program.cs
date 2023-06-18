@@ -2,7 +2,7 @@
 
 namespace AccessDemo1
 {
-    // Consuming members of a class from same class
+    // Case 1: Consuming members of a class from same class
     public class Program
     {        
         private void Test1()

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AccessDemo1
 {
-    // Consuming members of a class from child class
+    // Case 2: Consuming members of a class from child class of same project
     class Two: Program
     {
         static void Main(string[] args)
