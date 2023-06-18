@@ -25,9 +25,10 @@ namespace AccessDemo1
             Console.WriteLine("Public Method.");
         }
         static void Main(string[] args)
-        { 
-            
-
+        {             
+            Program p = new Program();
+            p.Test1(); p.Test2(); p.Test3(); 
+            p.Test4(); p.Test5();
         }
     }
 }
