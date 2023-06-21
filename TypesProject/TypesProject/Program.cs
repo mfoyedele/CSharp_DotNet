@@ -19,7 +19,10 @@ namespace TypesProject
             Console.WriteLine(pi);
             Program p1 = new Program(15, true);
             Program p2 = new Program(50, false);
-            Console.WriteLine(p1.x + " " + p2.x);            
+            Console.WriteLine(p1.x + " " + p2.x); 
+            Console.WriteLine(p1.flag + " " + p2.flag);
+            p1.x = 800;
+            Console.WriteLine(p1.x);
             Console.ReadLine();
         }
     }
