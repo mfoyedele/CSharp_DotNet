@@ -6,7 +6,7 @@ namespace TypesProject
     {
         int x = 100; //Non-Static variable
         static int y = 200; //Static variable
-
+        const float pi = 3.14;
         public Program(int x)
         {
             this.x = x;
