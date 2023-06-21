@@ -9,6 +9,8 @@ namespace TypesProject
         static void Main(string[] args)
         {
             Console.WriteLine(y);
+            Program p1 = new Program();
+            Console.WriteLine(p1.x);
             Console.ReadLine();
         }
     }
