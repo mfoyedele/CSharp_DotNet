@@ -4,7 +4,7 @@ namespace TypesProject
 {
     class Program
     {
-        int x; //Non-Static variable
+        int x; //Non-Static/Instance variable
         static int y = 200; //Static variable
         const float pi = 3.14f; // Constatic variable
         readonly bool flag;
@@ -21,6 +21,7 @@ namespace TypesProject
             Program p2 = new Program(50, false);
             Console.WriteLine(p1.x + " " + p2.x); 
             Console.WriteLine(p1.flag + " " + p2.flag);
+            //p1.flag = false; - Readonly variable cannot be modified after initialization
             p1.x = 800;
             Console.WriteLine(p1.x);
             Console.ReadLine();
