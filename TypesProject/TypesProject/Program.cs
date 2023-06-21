@@ -10,7 +10,9 @@ namespace TypesProject
         {
             Console.WriteLine(y);
             Program p1 = new Program();
+            Program p2 = new Program();
             Console.WriteLine(p1.x);
+            Console.WriteLine(p2.x);
             Console.ReadLine();
         }
     }
