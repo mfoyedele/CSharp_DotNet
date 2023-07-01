@@ -8,6 +8,10 @@ namespace InheritanceProject
 {
     internal class Class2 : Class1
     {
+        Class2()
+        {
+            Console.WriteLine("Class2 consctructor is called");
+        }
         public void Test3()
         {
             Console.WriteLine("Method 3");

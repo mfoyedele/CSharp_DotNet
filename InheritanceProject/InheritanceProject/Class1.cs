@@ -6,7 +6,7 @@ namespace InheritanceProject
     {
         public Class1()
         {
-            Console.WriteLine("Class1 consctructor");
+            Console.WriteLine("Class1 consctructor is called");
         }
         public void Test1()
         {
