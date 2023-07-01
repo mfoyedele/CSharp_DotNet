@@ -18,10 +18,15 @@ namespace InheritanceProject
         }
         static void Main(string[] args)
         {
-            Class2 c = new Class2();
-            c.Test1();
-            c.Test2();
-            c.Test3();
+            Class1 p; // p is a variable of class1
+            Class2 c = new Class2(); // c is instance of class 2
+            p = c; // p is a reference of parent class created by using child class instance
+            p.Test1();
+            p.Test2();
+            //Class2 c = new Class2();
+            //c.Test1();
+            //c.Test2();
+            //c.Test3();
             Console.ReadLine();
         }
     }
