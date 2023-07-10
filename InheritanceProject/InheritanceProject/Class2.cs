@@ -27,6 +27,8 @@ namespace InheritanceProject
             //c.Test1();
             //c.Test2();
             //c.Test3();
+            Object obj = new Object();
+         
             Console.ReadLine();
         }
     }
