@@ -28,7 +28,11 @@ namespace InheritanceProject
             //c.Test2();
             //c.Test3();
             Object obj = new Object();
-         
+            Console.WriteLine(obj.GetType());
+            Class1 d = new Class1();
+            Console.WriteLine(d.GetType());
+            Class2 e = new Class2();
+            Console.WriteLine(e.GetType());
             Console.ReadLine();
         }
     }
