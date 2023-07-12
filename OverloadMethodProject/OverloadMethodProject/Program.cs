@@ -26,7 +26,9 @@ namespace OverloadMethodProject
         }
         static void Main(string[] args)
         {
-          
+            Program p = new Program();
+            p.Test(10, "Khalifa");
+            Console.ReadLine();
         }       
 
     }
