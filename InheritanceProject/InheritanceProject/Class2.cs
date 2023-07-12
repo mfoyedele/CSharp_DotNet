@@ -8,7 +8,7 @@ namespace InheritanceProject
 {
     internal class Class2 : Class1
     {
-        Class2()
+        Class2() : base(10)
         {
             Console.WriteLine("Class2 consctructor is called");
         }
@@ -29,7 +29,7 @@ namespace InheritanceProject
             //c.Test3();
             Object obj = new Object();
             Console.WriteLine(obj.GetType());
-            Class1 d = new Class1();
+            Class1 d = new Class1(10);
             Console.WriteLine(d.GetType());
             Class2 e = new Class2();
             Console.WriteLine(e.GetType());
