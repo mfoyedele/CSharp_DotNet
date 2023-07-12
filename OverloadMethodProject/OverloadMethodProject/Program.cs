@@ -27,7 +27,11 @@ namespace OverloadMethodProject
         static void Main(string[] args)
         {
             Program p = new Program();
+            p.Test();
+            p.Test(10);
+            p.Test("Khalifa");
             p.Test(10, "Khalifa");
+            p.Test("Khalifa", 10);
             Console.ReadLine();
         }       
 
