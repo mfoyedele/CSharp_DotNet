@@ -12,7 +12,7 @@ namespace OverloadMethodProject
         {
             Console.WriteLine("Parent's Show Method is Callled.");
         }
-        public void Test()
+        public virtual void Test() //Overridable
         {
             Console.WriteLine("Parent's Test Method is Called.");
         }
@@ -23,6 +23,10 @@ namespace OverloadMethodProject
         public void Show(int i)
         {
             Console.WriteLine("Child's Show Method is Called.");
+        }
+        public override void Test()
+        {
+            Console.WriteLine("Child's Test Method is Called.");
         }
         static void Main(string[] args) 
         {
