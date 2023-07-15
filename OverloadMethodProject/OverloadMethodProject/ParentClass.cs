@@ -39,16 +39,21 @@ namespace OverloadMethodProject
         }
         static void Main()
         {
-            ParentClass p = new ParentClass();
+            //ParentClass p = new ParentClass();
+            //p.Test1();
+            //p.Test2();
+           
+            //ChildClass c = new ChildClass();
+            //c.Test1();
+            //c.Test2();
+            //c.ParentTest1();
+            //c.ParentTest2();
+
+            ChildClass c = new ChildClass(); //c is instance of child class
+            ParentClass p = c; //p is a reference of parennt class created by using child's instance
+
             p.Test1();
             p.Test2();
-           
-            ChildClass c = new ChildClass();
-            c.Test1();
-            c.Test2();
-            c.ParentTest1();
-            c.ParentTest2();
-
             Console.ReadLine();
         }
     }
