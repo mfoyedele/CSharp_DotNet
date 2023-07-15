@@ -29,15 +29,25 @@ namespace OverloadMethodProject
         {
             Console.WriteLine("Method Test2 from child class.");
         }
+        public void ParentTest1()
+        {
+            base.Test1();
+        }
+        public void ParentTest2()
+        {
+            base.Test2();
+        }
         static void Main()
         {
             ParentClass p = new ParentClass();
             p.Test1();
             p.Test2();
-
+           
             ChildClass c = new ChildClass();
             c.Test1();
             c.Test2();
+            c.ParentTest1();
+            c.ParentTest2();
 
             Console.ReadLine();
         }
