@@ -31,6 +31,10 @@ namespace OverloadMethodProject
         }
         static void Main()
         {
+            ParentClass p = new ParentClass();
+            p.Test1();
+            p.Test2();
+
             ChildClass c = new ChildClass();
             c.Test1();
             c.Test2();
