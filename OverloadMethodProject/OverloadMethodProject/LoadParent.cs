@@ -22,9 +22,11 @@ namespace OverloadMethodProject
     {
         static void Main(string[] args) 
         {
-            LoadParent c = new LoadParent();
+            LoadChild c = new LoadChild();
             c.Show();
             c.Test();
+
+            Console.ReadLine();
         }
 
     }
