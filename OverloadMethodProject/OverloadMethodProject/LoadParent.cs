@@ -20,10 +20,15 @@ namespace OverloadMethodProject
 
     internal class LoadChild : LoadParent
     {
+        public void Show(int i)
+        {
+            Console.WriteLine("Child's Show Method is Called.");
+        }
         static void Main(string[] args) 
         {
             LoadChild c = new LoadChild();
             c.Show();
+            c.Show(10);
             c.Test();
 
             Console.ReadLine();
