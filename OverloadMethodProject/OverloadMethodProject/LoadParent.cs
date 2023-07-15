@@ -20,11 +20,13 @@ namespace OverloadMethodProject
 
     internal class LoadChild : LoadParent
     {
+        //Overloading parent's Show method in child class
         public void Show(int i)
         {
             Console.WriteLine("Child's Show Method is Called.");
         }
-        public override void Test()
+        //Overriding parent's Test method in child class
+        public override void Test() //Overriding
         {
             Console.WriteLine("Child's Test Method is Called.");
         }
