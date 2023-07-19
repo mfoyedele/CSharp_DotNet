@@ -52,8 +52,8 @@ namespace OverloadMethodProject
             ChildClass c = new ChildClass(); //c is instance of child class
             ParentClass p = c; //p is a reference of parennt class created by using child's instance
 
-            p.Test1();
-            p.Test2();
+            p.Test1(); //Invokes child classes method
+            p.Test2(); //Invokes parent classes method
             Console.ReadLine();
         }
     }
