@@ -17,4 +17,12 @@ namespace OverloadMethodProject
             this.d = d;
         }
     }
+    class TestMatrix
+    {
+        static void Main()
+        {
+            Matrix m1 = new Matrix(20, 18, 16, 14);
+            Matrix m2 = new Matrix(10, 8, 6, 4);
+        }
+    }
 }
