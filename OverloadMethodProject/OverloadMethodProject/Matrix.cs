@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OverloadMethodProject
 {
-    internal class Matrix
+    internal class Matrix 
     {
         int a, b, c, d;
         public Matrix(int a, int b, int c, int d)
@@ -15,6 +15,10 @@ namespace OverloadMethodProject
             this.b = b;
             this.c = c;
             this.d = d;
+        }
+        public override string ToString()
+        {
+            return a + " " + b + "\n" + c + " " + d + "\n";
         }
         public static Matrix operator +(Matrix obj1, Matrix obj2)
         {
