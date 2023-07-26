@@ -2,11 +2,11 @@
 
 namespace AbstractImplementation
 {
-    public class Figure
+    public abstract class Figure
     {
         public double Width, Height, Radius;
         public const float Pi = 3.14f;
-
+        public abstract double GetArea();
     }
     public class Rectangle : Figure
     {
@@ -14,6 +14,10 @@ namespace AbstractImplementation
         {
             this.Width = Width;
             this.Height = Height;
+        }
+         public override double GetArea() 
+        {
+            return Width * Height;
         }
     }
 
@@ -23,6 +27,10 @@ namespace AbstractImplementation
         {
             this.Radius = Radius;
         }
+        public override double GetArea() 
+        {
+            return Pi * Radius * Radius;
+        }
     }
 
     public class Cone : Figure
@@ -31,6 +39,26 @@ namespace AbstractImplementation
         {
             this.Radius = Radius;
             this.Height = Height;
+        }
+        public override double GetArea()
+        {
+            return Pi * Radius * (Radius + Math.Sqrt(Height * Height + Radius * Radius));
+        }
+        class TestFigure
+        {
+            static void Main(string[] args)
+            {
+                Rectangle r = new Rectangle(12.67, 56.78);
+                Circle c = new Circle(45.67);
+                Cone cn = new Cone(34.98, 12.98);
+
+                Console.WriteLine("Area of Rectangle " + r.GetArea());
+                Console.WriteLine("Area of Circle " + c.GetArea());
+                Console.WriteLine("Area of Cone " + cn.GetArea());
+
+                Console.ReadLine();
+            }
+
         }
     }
 
