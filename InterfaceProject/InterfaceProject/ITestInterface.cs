@@ -8,5 +8,6 @@ namespace InterfaceProject
 {
     internal interface ITestInterface
     {
+        void Add(int a, int b);
     }
 }
