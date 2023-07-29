@@ -14,4 +14,15 @@ namespace InterfaceProject
     {
         void Sub(int a, int b);
     }
+    class ImplementationClass : ITestInterface2
+    {
+        public void Add(int a, int b) 
+        {
+        
+        }
+        public void Sub(int a, int b) 
+        {
+        
+        }
+    }
 }
