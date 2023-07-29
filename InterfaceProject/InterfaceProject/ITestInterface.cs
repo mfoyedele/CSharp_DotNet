@@ -24,5 +24,16 @@ namespace InterfaceProject
         {
             Console.WriteLine(a - b);
         }
+    static void Main()
+    {
+        ImplementationClass obj = new ImplementationClass();
+        ITestInterface2 i = obj;
+        i.Add(100, 30);
+        i.Sub(100, 30);
+
+        Console.ReadLine();
     }
+    
+    }
+
 }
